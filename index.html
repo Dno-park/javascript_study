@@ -3,17 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        function linksSetColor(color) {
+            const list = document.querySelectorAll('a');
+            let i = 0
+            while (i < list.length) {
+                list[i].style.color = color;
+                i = i + 1;
+            }
+        }
+        function bodySetColor(color){
+            document.querySelector('body').style.color = color;
+        }
+        function nightDayHandler(self){
+        const target = document.querySelector('body');
+        if (self.value ==='night') {
+            target.style.backgroundColor ='black';
+            bodySetColor('white');
+            self.value = 'day';
+
+            linksSetColor('powderblue')
+            } else {
+            target.style.backgroundColor='white';
+            bodySetColor('black');
+            self.value = 'night';
+
+            linksSetColor('blue')
+            }
+        }
+    </script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <input type="button" value="night" onclick="
-      document.querySelector('body').style.backgroundColor ='black';
-      document.querySelector('body').style.color='white';
-    ">
-    <input type="button" value="day" onclick="
-      document.querySelector('body').style.backgroundColor='white';
-      document.querySelector('body').style.color='black';
-    ">
+    <input type="button", value ="night" onclick="
+        nightDayHandler(this);
+">
+
     <ol>
         <li><a href="1.html"> HTML </a></li>
         <li><a href="2.html"> CSS </a></li>
