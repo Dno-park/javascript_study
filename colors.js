@@ -1,20 +1,22 @@
 let Links = {
     setColor: function (color) {
-        const list = document.querySelectorAll('a');
-        let i = 0
-        while (i < list.length) {
-            list[i].style.color = color;
-            i = i + 1;
-        }
+        // const list = document.querySelectorAll('a');
+        // let i = 0
+        // while (i < list.length) {
+        //     list[i].style.color = color;
+        //     i = i + 1;
+        // }
+        $(`a`).css('color', color)
     }
 }
 let Body = {
     setColor: function (color){
-        document.querySelector('body').style.color = color;
+        // document.querySelector('body').style.color = color;
+        $('body').css('color', color)
     },
     setBackgroundColor: function (color){
-        document.querySelector('body').style.backgroundColor = color;
-    }
+        // document.querySelector('body').style.backgroundColor = color;
+        $('body').css('backgroundColor',color)}
 }
 
 function nightDayHandler(self){
