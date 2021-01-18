@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edc713a3-a99e-472f-a6be-996d334d4afe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gretting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/countXmas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -49,7 +51,9 @@
       <updated>1610345228258</updated>
       <workItem from="1610345231796" duration="5047000" />
       <workItem from="1610586019453" duration="1240000" />
-      <workItem from="1610716367582" duration="2303000" />
+      <workItem from="1610716367582" duration="2371000" />
+      <workItem from="1610808499766" duration="3795000" />
+      <workItem from="1610813139496" duration="7651000" />
     </task>
     <servers />
   </component>
@@ -57,9 +61,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610946019044">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1610946019044" />
+    <state x="309" y="62" key="CommitChangelistDialog2" timestamp="1610811690921">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="309" y="62" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1610811690921" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1610586632446">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="385" y="210" key="run.anything.popup/0.25.1440.875@0.25.1440.875" timestamp="1610586632446" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1610945729713">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1610945729713" />
   </component>
 </project>
